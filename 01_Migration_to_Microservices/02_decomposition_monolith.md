@@ -68,3 +68,6 @@ Cada subdominio puede convertirse en uno o varios microservicios.
 
 > 🔥 **Consejo práctico:** Empieza identificando capacidades de negocio claras y, a medida que el sistema evoluciona, refina hacia una separación más orientada a subdominios.
 
+---
+
+[Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
