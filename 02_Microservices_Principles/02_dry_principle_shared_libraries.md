@@ -51,7 +51,7 @@ Pero en microservicios, **reutilizar código mediante shared libraries puede ser
 
 - Es válido compartir un **modelo de datos común** para facilitar la interoperabilidad.
   - Usar una librería específica para ese propósito.
-  - Generar código automáticamente a partir de contratos (OpenAPI, Protobuf, Avro).
+  - Generar código automáticamente a partir de contratos.
 
 > 🔐 Estos contratos deben ser **versionados** y considerados inmutables una vez publicados.
 
