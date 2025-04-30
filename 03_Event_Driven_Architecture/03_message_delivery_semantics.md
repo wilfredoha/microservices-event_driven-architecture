@@ -57,8 +57,7 @@ Existen tres niveles principales de garantía de entrega en sistemas de mensajer
 
 - El mensaje se entrega **exactamente una vez** al consumidor, sin pérdida ni duplicación.
 - ✔️ *Ventajas:* máxima fiabilidad y consistencia.
-- ❌ *Desventajas:* muy difícil de implementar, alta sobrecarga y latencia.
-- Requiere coordinación entre productor, broker y consumidor (transacciones distribuidas, logs de compensación, idempotencia estricta).
+- ❌ *Desventajas:* muy difícil de implementar, alta sobrecarga y latencia. Requiere coordinación entre productor, broker y consumidor (transacciones distribuidas, logs de compensación, idempotencia estricta).
 - 🧠 *Uso recomendado:* sistemas altamente críticos como procesamiento financiero o actualización de inventarios.
 
 ---
