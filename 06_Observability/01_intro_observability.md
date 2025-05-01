@@ -44,8 +44,6 @@ Registro del recorrido de una solicitud a través de múltiples servicios en el 
 
 La observabilidad no es opcional en arquitecturas distribuidas modernas. Implementar una estrategia sólida de logs, métricas y trazas permite construir sistemas más resilientes, mantenibles y seguros.
 
-En los próximos módulos, exploraremos en profundidad cómo aplicar estos pilares en entornos de microservicios y eventos distribuidos.
-
 ---
 
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
