@@ -14,13 +14,40 @@ El principio clave es que debe haber **muchas pruebas unitarias**, **algunas pru
 
 ## 🏗 Aplicando la Testing Pyramid a Microservices Architecture
 
-En una arquitectura de microservicios, esta pirámide sigue siendo válida, pero su implementación se vuelve más desafiante debido a la naturaleza distribuida del sistema:
+La Testing Pyramid sigue siendo una guía esencial en microservicios, pero su aplicación requiere adaptar la estrategia a la naturaleza distribuida, autónoma y altamente desacoplada de este tipo de arquitecturas.
 
-- **Unit Tests:** se aplican a cada microservicio de forma independiente.
-- **Integration Tests:** deben validar la interacción entre microservicios, muchas veces utilizando **mocks o contratos**.
-- **End-to-End Tests:** cubren flujos completos donde múltiples microservicios interactúan; deben usarse con moderación.
+### 🔹 1. **Unit Tests**
 
-Para microservicios, se recomienda complementar la pirámide con enfoques como **contract testing** y **pruebas en producción (canary releases, observabilidad, etc.)**.
+Cada microservicio debe tener una sólida cobertura de pruebas unitarias, ya que:
+- Aseguran la calidad del código local sin dependencias externas.
+- Son rápidas de ejecutar, ideales para CI/CD.
+- Proveen retroalimentación inmediata al desarrollador.
+
+📌 *Recomendación:* usa mocks para dependencias como bases de datos, colas o servicios HTTP externos. Mantén estas pruebas puramente aisladas.
+
+### 🔹 2. **Integration Tests**
+
+Validan la interacción entre módulos internos del microservicio o con servicios externos. En microservicios, existen dos enfoques importantes:
+
+- **Tests de integración interna:** aseguran que capas como API, lógica de negocio y repositorios interactúan correctamente dentro del mismo microservicio.
+- **Contract Testing (entre microservicios):** prueba que el productor y consumidor de una API cumplan con un contrato previamente acordado. Soluciona problemas causados por cambios en APIs compartidas.
+
+📌 *Recomendación:* utiliza herramientas como **Pact** o **Spring Cloud Contract** para contract testing. Evita depender de servicios reales durante la ejecución de estas pruebas.
+
+### 🔹 3. **End-to-End (E2E) Tests**
+
+Son las más costosas, ya que requieren levantar múltiples servicios y recursos externos como bases de datos o brokers. Sin embargo, siguen siendo necesarias para:
+
+- Validar flujos de negocio completos.
+- Detectar errores en la integración real entre servicios.
+
+📌 *Recomendación:* automatiza algunos flujos clave, pero evita abusar. En su lugar, prioriza observabilidad y canary releases para detectar fallos en producción con bajo riesgo.
+
+### 🔹 4. **Consideraciones adicionales**
+
+- **Event-driven architecture:** agregar pruebas que verifiquen que los eventos se emiten y consumen correctamente. Puedes incluir pruebas de contratos para eventos (formato, semántica).
+- **Ambientes de prueba aislados:** usa entornos con herramientas como Docker Compose, Testcontainers, o entornos temporales en Kubernetes para mantener pruebas confiables y reproducibles.
+- **Observabilidad como herramienta de prueba:** en sistemas distribuidos, logs estructurados, métricas y trazas distribuidas complementan las pruebas automatizadas.
 
 ---
 
