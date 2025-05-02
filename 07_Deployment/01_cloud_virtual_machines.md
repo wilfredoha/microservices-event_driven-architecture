@@ -51,8 +51,6 @@ Una **máquina virtual (VM)** en la nube es una instancia computacional que se e
 
 Las máquinas virtuales en la nube ofrecen diferentes niveles de aislamiento, costo y rendimiento según el tipo de implementación. Para cargas de trabajo generales y económicas, las **multi-tenant VMs** son la mejor opción. Para entornos regulados o sensibles, las **single-tenant VMs** o los **dedicated hosts** ofrecen un mayor control y seguridad a un costo más elevado.
 
-A continuación: `02_containers_vs_vms.md` – comparativa entre contenedores y máquinas virtuales.
-
 ---
 
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
