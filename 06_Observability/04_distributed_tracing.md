@@ -63,7 +63,6 @@ Las arquitecturas **event-driven** (basadas en eventos) presentan desafíos úni
 
 **Distributed Tracing** es una herramienta esencial para diagnosticar problemas en sistemas distribuidos, pero su implementación tiene retos técnicos y de costo, especialmente en arquitecturas basadas en eventos. Adoptar buenas prácticas de instrumentación y limitar el volumen de trazas recolectadas es clave para obtener valor sin sobrecargar el sistema.
 
-A continuación: `05_observability_tools.md` – herramientas recomendadas para implementar observabilidad.
 
 ---
 
