@@ -68,6 +68,8 @@ Antes de extraer funcionalidades a microservicios, es fundamental realizar ciert
 
 **Strangler Fig Pattern** es una estrategia inspirada en cómo un árbol estrangulador crece alrededor de un árbol existente, eventualmente reemplazándolo.
 
+![Strangler Fig Pattern](images/strangler-fig-pattern.jpeg)
+
 **Aplicación en migración:**
 - Rodear el monolito existente con nuevas funcionalidades implementadas como microservicios.
 - Gradualmente redirigir tráfico y lógica del monolito a los microservicios.
