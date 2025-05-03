@@ -2,6 +2,7 @@
 
 El patrón de micro-frontends extiende los principios de los microservicios al frontend. Permite dividir una aplicación frontend monolítica en partes independientes, cada una mantenida por un equipo diferente y desplegada de forma separada.
 
+![Micro-Frontends Architecture Pattern](images/Micro-Frontend-Architecture-Diagram.png)
 ---
 
 ## 🧩 Problemas del Frontend Monolítico
@@ -60,5 +61,7 @@ Los **micro-frontends** son una arquitectura donde el frontend está dividido en
 > 📌 La clave es mantener la independencia técnica y organizacional de cada micro-frontend mientras se conserva una experiencia de usuario coherente.
 
 ---
+
+[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/02_Microservices_Principles/03_structured_autonomy.md)   [Siguiente](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/02_Microservices_Principles/04_micro_frontends.md)
 
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
