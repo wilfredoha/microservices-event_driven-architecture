@@ -62,6 +62,6 @@ Los **micro-frontends** son una arquitectura donde el frontend está dividido en
 
 ---
 
-[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/02_Microservices_Principles/03_structured_autonomy.md)   [Siguiente](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/02_Microservices_Principles/04_micro_frontends.md)
+[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/02_Microservices_Principles/03_structured_autonomy.md)   [Siguiente](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/02_Microservices_Principles/05_api_management.md)
 
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
