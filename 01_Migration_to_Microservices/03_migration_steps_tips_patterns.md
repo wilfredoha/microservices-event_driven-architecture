@@ -2,6 +2,8 @@
 
 La migración de un monolito a una arquitectura de microservicios es un proceso desafiante que requiere una estrategia sólida para minimizar riesgos y asegurar el éxito.
 
+![Migration to Microservices](images/monolithic-to-microservice.png)
+
 A continuación, exploramos enfoques de migración, preparación recomendada y patrones que ayudan a realizar una transición controlada y efectiva.
 
 ---
