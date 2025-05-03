@@ -3,7 +3,7 @@
 Una decisión fundamental en la arquitectura de microservicios es cómo gestionar los datos.  
 Un principio ampliamente adoptado es **"Database per Microservice"**, es decir, cada microservicio posee y administra su propia base de datos.
 
-![Database per Microservice](images/database-per-microservice.webp)
+![Database per Microservice](images/database-per-microservice.jpg)
 
 ---
 
