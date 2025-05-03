@@ -11,6 +11,8 @@ Aquí exploramos dos enfoques principales de descomposición: **por capacidades 
 
 **Business Capabilities** representan **lo que el negocio hace** en términos de funciones esenciales (por ejemplo: facturación, gestión de usuarios, inventario).
 
+![Decomposition by Business Capability](images/decompose-by-business-capability.png)
+
 ### Concepto
 - Cada microservicio debe alinearse con una **capacidad de negocio independiente**.
 - Los servicios son modelados para reflejar funciones de negocio, no estructuras técnicas.
@@ -32,6 +34,8 @@ Cada uno representa una **función completa e independiente** del negocio.
 ## 🔹 Decomposition by Domain / Subdomain (Domain-Driven Design)
 
 Enfoque basado en **Domain-Driven Design (DDD)**, donde el sistema se modela alrededor de **dominios** y **subdominios**.
+
+![Decomposition by Domain / Subdomain](images/decompose-by-subdomain.png)
 
 ### Concepto
 - **Core Domain:** Diferenciador competitivo del negocio. **Debe ser priorizado.**
@@ -69,5 +73,7 @@ Cada subdominio puede convertirse en uno o varios microservicios.
 > 🔥 **Consejo práctico:** Empieza identificando capacidades de negocio claras y, a medida que el sistema evoluciona, refina hacia una separación más orientada a subdominios.
 
 ---
+
+[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/01_Migration_to_Microservices/01_microservices_boundaries.md)   [Siguiente](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/01_Migration_to_Microservices/03_migration_steps_tips_patterns.md)
 
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
