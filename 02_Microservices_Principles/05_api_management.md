@@ -29,6 +29,8 @@ La gestión de APIs en una arquitectura de microservicios es crítica para garan
 
 El **API Gateway** actúa como un punto de entrada único para todas las llamadas a servicios desde clientes externos e internos. Su propósito es desacoplar el cliente de los servicios backend y centralizar funcionalidades transversales.
 
+![El Patrón API Gateway](images/api-gateway-pattern.png)
+
 ### 🔧 Funcionalidades comunes:
 
 - **Throttling y rate limiting**.
@@ -65,5 +67,7 @@ El **API Gateway** actúa como un punto de entrada único para todas las llamada
 Una arquitectura de microservicios sin una estrategia clara de **API Management** puede volverse rápidamente inmanejable. Usar un **API Gateway** permite simplificar el desarrollo del cliente, proteger los servicios, y administrar el ciclo de vida completo de las APIs de forma centralizada.
 
 ---
+
+[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/02_Microservices_Principles/04_micro_frontends.md)   [Siguiente](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/03_Event_Driven_Architecture/01_intro_event_driven_architecture.md)
 
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
