@@ -3,6 +3,8 @@
 Una decisión fundamental en la arquitectura de microservicios es cómo gestionar los datos.  
 Un principio ampliamente adoptado es **"Database per Microservice"**, es decir, cada microservicio posee y administra su propia base de datos.
 
+![Database per Microservice](images/database-per-microservice.webp)
+
 ---
 
 ## 🎯 Motivation for Database per Microservice
@@ -57,5 +59,7 @@ Sin embargo, introduce nuevos desafíos de complejidad, latencia y consistencia 
 > ⚖️ **Como toda decisión arquitectónica, se debe evaluar cuidadosamente el contexto y los requisitos del sistema antes de adoptar este enfoque.**
 
 ---
+
+[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/01_Migration_to_Microservices/03_migration_steps_tips_patterns.md)   [Siguiente](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/02_Microservices_Principles/02_dry_principle_shared_libraries.md)
 
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
