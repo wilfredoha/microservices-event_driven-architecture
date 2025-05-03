@@ -93,4 +93,6 @@ Evalúa cuándo compartir, cuándo duplicar y cuándo externalizar funcionalidad
 
 ---
 
+[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/02_Microservices_Principles/01_databases_microservices.md)   [Siguiente](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/02_Microservices_Principles/03_structured_autonomy.md)
+
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
