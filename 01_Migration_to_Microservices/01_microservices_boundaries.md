@@ -73,4 +73,6 @@ Cambiar un servicio obliga a cambiar otros, introduciendo errores y ralentizando
 
 ---
 
+[Decomposition of a Monolithic Application to Microservices](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/01_Migration_to_Microservices/02_decomposition_monolith.md)
+
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
