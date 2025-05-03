@@ -78,4 +78,6 @@ La autonomía en microservicios no debe ser absoluta ni inexistente.
 
 ---
 
+[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/02_Microservices_Principles/02_dry_principle_shared_libraries.md)   [Siguiente](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/02_Microservices_Principles/04_micro_frontends.md)
+
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
