@@ -94,4 +94,6 @@ Al enfocarse en un enfoque incremental, preparar adecuadamente el terreno, utili
 
 ---
 
+[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/01_Migration_to_Microservices/02_decomposition_monolith.md)   [Siguiente](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/02_Microservices_Principles/01_databases_microservices.md)
+
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
