@@ -8,6 +8,8 @@ Los **message brokers** son componentes clave en arquitecturas basadas en evento
 
 Apache Kafka es una plataforma distribuida de transmisión de eventos diseñada para manejar grandes volúmenes de datos con baja latencia y alta durabilidad.
 
+![Apache Kafka](images/apache-kafka.jpg)
+
 ### 🔸 Producer Delivery Semantics
 - **At-Most-Once**: El productor no espera confirmación del broker. Riesgo de pérdida si falla la transmisión.
 - **At-Least-Once**: El productor reintenta hasta recibir confirmación. Riesgo de duplicación si el mensaje se reenvía.
@@ -26,6 +28,8 @@ Apache Kafka es una plataforma distribuida de transmisión de eventos diseñada 
 
 Amazon Simple Queue Service (SQS) es una solución de colas completamente administrada que permite desacoplar y escalar sistemas distribuidos.
 
+![Amazon SQS](images/sqs-least-privilege.png)
+
 ### 🔸 SQS Standard Queues
 - Garantía de **At-Least-Once**: cada mensaje se entrega al menos una vez, con posibilidad de duplicación.
 
@@ -39,12 +43,16 @@ Amazon Simple Queue Service (SQS) es una solución de colas completamente admini
 
 Google Cloud Pub/Sub es un servicio de mensajería escalable y asincrónico que conecta servicios usando un modelo publish-subscribe.
 
+![Google Cloud Pub/Sub](images/google_pub_sub.png)
+
 - Ofrece garantía de **Exactly-Once Delivery** para la publicación y procesamiento de mensajes.
 - Internamente, utiliza técnicas como deduplicación basada en IDs de mensajes y control de reintentos automáticos.
 
 ---
 
 ## 🔵 Microsoft Azure Messaging
+
+![Microsoft Azure Messaging](images/azure.png)
 
 ### 🔸 Azure Event Hubs
 - Proporciona **Exactly-Once Delivery** en la salida de eventos cuando se consume y procesa mediante Azure Stream Analytics u otros servicios compatibles.
@@ -77,5 +85,7 @@ Seleccionar la tecnología de mensajería adecuada implica un análisis cuidados
 Cada plataforma tiene sus fortalezas y limitaciones. El diseño de tu arquitectura debe aprovechar las garantías que ofrece el broker elegido mientras mitigas sus riesgos.
 
 ---
+
+[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/03_Event_Driven_Architecture/03_message_delivery_semantics.md)   [Siguiente](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/04_Event_Driven_Patterns/01_saga_pattern.md)
 
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
