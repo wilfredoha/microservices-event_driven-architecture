@@ -2,6 +2,7 @@
 
 La arquitectura basada en eventos (**Event-Driven Architecture**, o EDA) es un estilo arquitectónico diseñado para construir sistemas altamente desacoplados, escalables y reactivos mediante la producción, detección, consumo y reacción a eventos.
 
+![Introduction to Event-Driven Architecture](images/Event-Driven-Architecture-diagram.webp)
 ---
 
 ## 🎯 Motivación para adoptar Event-Driven Architecture
@@ -58,5 +59,7 @@ La arquitectura basada en eventos promueve una mayor **resiliencia**, **escalabi
 
 
 ---
+
+[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/02_Microservices_Principles/05_api_management.md)   [Siguiente](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/03_Event_Driven_Architecture/02_use_cases_patterns.md)
 
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
