@@ -75,4 +75,6 @@ En la práctica, **at-least-once con lógica de idempotencia** suele ser un equi
 
 ---
 
+[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/03_Event_Driven_Architecture/02_use_cases_patterns.md)   [Siguiente](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/03_Event_Driven_Architecture/04_message_broker_technologies.md)
+
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
