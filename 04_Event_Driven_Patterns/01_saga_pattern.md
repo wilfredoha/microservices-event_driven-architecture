@@ -30,6 +30,8 @@ Un servicio central, denominado **orquestador**, controla la ejecución completa
 - Espera confirmación de cada paso antes de continuar.
 - Si ocurre una falla, ejecuta directamente las acciones compensatorias correspondientes en orden inverso.
 
+![Orquestación basada en Workflow](images/saga-orchestration.png)
+
 **Ventajas:**
 - Mayor visibilidad y control del flujo.
 - Simplicidad para trazar y depurar errores.
@@ -46,6 +48,8 @@ En este modelo **descentralizado**, no existe un orquestador. Cada servicio:
 - Escucha eventos emitidos por otros servicios.
 - Ejecuta su transacción cuando detecta el evento correspondiente.
 - Emite un nuevo evento indicando el resultado, que puede ser escuchado por otros servicios.
+
+![Coreografía basada en Eventos](images/saga-choreography-1.png)
 
 **Ventajas:**
 - Bajo acoplamiento entre servicios.
@@ -65,5 +69,7 @@ Aunque no garantiza consistencia inmediata, proporciona una forma segura y confi
 La elección entre **orquestación** y **coreografía** dependerá del nivel de control, simplicidad operativa y escalabilidad que se desea alcanzar en el sistema.
 
 ---
+
+[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/03_Event_Driven_Architecture/04_message_broker_technologies.md)   [Siguiente](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/04_Event_Driven_Patterns/02_cqrs_pattern.md)
 
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
