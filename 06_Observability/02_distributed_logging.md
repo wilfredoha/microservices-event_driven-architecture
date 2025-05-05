@@ -72,8 +72,6 @@ Para facilitar el análisis, incluye metadatos relevantes en cada entrada de log
 
 El logging distribuido es esencial para tener visibilidad y trazabilidad en sistemas compuestos por múltiples microservicios. Al seguir buenas prácticas como estandarización, centralización, uso de correlation IDs y contexto enriquecido, se facilita el monitoreo, el análisis de fallos y la mejora continua del sistema.
 
-En el siguiente módulo exploraremos el uso de métricas como pilar adicional de observabilidad.
-
 ---
 
 [Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/06_Observability/01_intro_observability.md)   [Siguiente](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/06_Observability/03_metrics.md)
