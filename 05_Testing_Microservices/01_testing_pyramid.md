@@ -16,6 +16,8 @@ El principio clave es que debe haber **muchas pruebas unitarias**, **algunas pru
 
 La Testing Pyramid sigue siendo una guía esencial en microservicios, pero su aplicación requiere adaptar la estrategia a la naturaleza distribuida, autónoma y altamente desacoplada de este tipo de arquitecturas.
 
+![Testing Pyramid](images/pyramid.png)
+
 ### 🔹 1. **Unit Tests**
 
 Cada microservicio debe tener una sólida cobertura de pruebas unitarias, ya que:
@@ -87,5 +89,7 @@ Es vital minimizar el acoplamiento entre servicios en las pruebas y evitar depen
 El uso estratégico de contract testing y herramientas de simulación permite mantener la calidad sin sacrificar agilidad.
 
 ---
+
+[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/04_Event_Driven_Patterns/03_event_sourcing.md)   [Siguiente](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/05_Testing_Microservices/02_contract_tests_production_testing.md)
 
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
