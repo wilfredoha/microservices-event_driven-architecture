@@ -6,6 +6,8 @@
 
 Esta separación permite optimizar y escalar de forma independiente los flujos de lectura y escritura, especialmente útil en arquitecturas de microservicios y sistemas distribuidos con alta carga o requerimientos diferenciados.
 
+![CQRS Pattern](images/cqrs.png)
+
 ### 🔧 Componentes clave
 
 - **Command**: Modifica el estado del sistema (crear, actualizar, eliminar). No retorna datos, solo confirma éxito o falla.
@@ -50,5 +52,7 @@ El patrón CQRS es ideal para arquitecturas distribuidas con:
 La combinación con **event-driven architecture** y **bases de datos desacopladas** potencia aún más su efectividad, aunque también introduce complejidad adicional (sincronización eventual, consistencia, idempotencia).
 
 ---
+
+[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/04_Event_Driven_Patterns/01_saga_pattern.md)   [Siguiente](hhttps://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/04_Event_Driven_Patterns/03_event_sourcing.md)
 
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
