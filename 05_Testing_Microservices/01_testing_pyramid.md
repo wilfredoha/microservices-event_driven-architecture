@@ -8,6 +8,8 @@ La **Testing Pyramid** es una estrategia bien establecida para organizar pruebas
 - **Integration Tests (Centro):** validan la interacción entre componentes del sistema.
 - **End-to-End Tests (Cima):** pruebas completas del flujo del sistema, simulando el comportamiento real del usuario.
 
+![Testing Pyramid](images/pyramid.png)
+
 El principio clave es que debe haber **muchas pruebas unitarias**, **algunas pruebas de integración**, y **pocas pruebas end-to-end**, debido a sus altos costos de ejecución y mantenimiento.
 
 ---
@@ -15,8 +17,6 @@ El principio clave es que debe haber **muchas pruebas unitarias**, **algunas pru
 ## 🏗 Aplicando la Testing Pyramid a Microservices Architecture
 
 La Testing Pyramid sigue siendo una guía esencial en microservicios, pero su aplicación requiere adaptar la estrategia a la naturaleza distribuida, autónoma y altamente desacoplada de este tipo de arquitecturas.
-
-![Testing Pyramid](images/pyramid.png)
 
 ### 🔹 1. **Unit Tests**
 
