@@ -58,4 +58,6 @@ La trazabilidad distribuida es esencial para entender el comportamiento de siste
 
 ---
 
+[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/06_Observability/04_distributed_tracing.md)   [Siguiente](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/07_Deployment/01_cloud_virtual_machines.md)
+
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
