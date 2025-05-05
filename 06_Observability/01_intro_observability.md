@@ -20,6 +20,8 @@ En el contexto de una arquitectura de microservicios, donde múltiples component
 
 ## 📊 Los Tres Pilares de la Observabilidad
 
+![Los Tres Pilares de la Observabilidad](images/Three-Pillars-observability.webp)
+
 ### 1. Logs (Registros)
 Registros estructurados y no estructurados generados por aplicaciones. Permiten investigar eventos específicos del sistema.
 
@@ -45,5 +47,7 @@ Registro del recorrido de una solicitud a través de múltiples servicios en el 
 La observabilidad no es opcional en arquitecturas distribuidas modernas. Implementar una estrategia sólida de logs, métricas y trazas permite construir sistemas más resilientes, mantenibles y seguros.
 
 ---
+
+[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/05_Testing_Microservices/03_contract_tests_solutions.md)   [Siguiente](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/06_Observability/02_distributed_logging.md)
 
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
