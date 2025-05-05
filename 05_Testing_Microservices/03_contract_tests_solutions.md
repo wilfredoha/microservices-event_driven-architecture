@@ -67,4 +67,6 @@ Las pruebas de contrato ayudan a reducir el riesgo de errores en tiempo de ejecu
 
 ---
 
+[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/05_Testing_Microservices/02_contract_tests_production_testing.md)   [Siguiente](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/06_Observability/01_intro_observability.md)
+
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
