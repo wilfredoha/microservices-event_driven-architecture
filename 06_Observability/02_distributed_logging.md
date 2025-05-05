@@ -76,4 +76,6 @@ En el siguiente módulo exploraremos el uso de métricas como pilar adicional de
 
 ---
 
+[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/06_Observability/01_intro_observability.md)   [Siguiente](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/06_Observability/03_metrics.md)
+
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
