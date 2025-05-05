@@ -47,11 +47,14 @@ Para minimizar el riesgo al desplegar microservicios, se emplean estrategias de 
 
 ### 🟩 Blue/Green Deployment
 
+![Blue/Green Deployment](images/blue-green-deployment.png)
 - Dos entornos idénticos (Blue y Green).
 - Se redirige el tráfico al nuevo entorno (Green) después de probarlo.
 - Permite rollback inmediato si hay errores.
 
 ### 🐦 Canary Testing
+
+![Blue/Green Deployment](images/canary-release-deployment.jpeg)
 
 - Se despliega una nueva versión a un pequeño porcentaje de usuarios.
 - Se monitorean métricas clave (errores, latencia).
