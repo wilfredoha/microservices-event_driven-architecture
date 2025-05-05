@@ -53,4 +53,6 @@ Las máquinas virtuales en la nube ofrecen diferentes niveles de aislamiento, co
 
 ---
 
+[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/06_Observability/05_distributed_tracing_solutions.md)   [Siguiente](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/07_Deployment/02_cloud_vm_solutions.md)
+
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
