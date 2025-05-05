@@ -50,8 +50,8 @@ Las métricas son fundamentales para evaluar el estado de sistemas distribuidos.
 
 Las **cinco métricas doradas** —**Latencia, Tráfico, Errores, Saturación y Utilización**— ofrecen una base sólida para monitorear y reaccionar ante problemas de forma proactiva.
 
-A continuación, exploraremos **Distributed Tracing**, una herramienta crítica para entender los flujos de solicitudes entre servicios.
-
 ---
+
+[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/06_Observability/02_distributed_logging.md)   [Siguiente](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/06_Observability/04_distributed_tracing.md)
 
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
