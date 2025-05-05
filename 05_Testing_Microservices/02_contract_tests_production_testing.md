@@ -69,4 +69,6 @@ Los contract tests permiten asegurar compatibilidad entre microservicios sin nec
 
 ---
 
+[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/05_Testing_Microservices/01_testing_pyramid.md)   [Siguiente](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/05_Testing_Microservices/03_contract_tests_solutions.md)
+
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
