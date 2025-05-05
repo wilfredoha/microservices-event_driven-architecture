@@ -53,6 +53,6 @@ La combinación con **event-driven architecture** y **bases de datos desacoplada
 
 ---
 
-[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/04_Event_Driven_Patterns/01_saga_pattern.md)   [Siguiente](hhttps://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/04_Event_Driven_Patterns/03_event_sourcing.md)
+[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/04_Event_Driven_Patterns/01_saga_pattern.md)   [Siguiente](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/04_Event_Driven_Patterns/03_event_sourcing.md)
 
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
