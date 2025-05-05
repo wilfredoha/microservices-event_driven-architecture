@@ -66,4 +66,6 @@ Las arquitecturas **event-driven** (basadas en eventos) presentan desafíos úni
 
 ---
 
+[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/06_Observability/03_metrics.md)   [Siguiente](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/06_Observability/05_distributed_tracing_solutions.md)
+
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
