@@ -70,4 +70,6 @@ La elección entre instancias multi-tenant, single-tenant o dedicated hosts depe
 
 ---
 
+[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/07_Deployment/01_cloud_virtual_machines.md)   [Siguiente](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/07_Deployment/03_serverless_faas.md)
+
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
