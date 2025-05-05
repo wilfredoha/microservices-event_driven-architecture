@@ -6,6 +6,8 @@
 
 Cada evento representa una acción realizada (por ejemplo: `CuentaCreada`, `SaldoDepositado`, `SaldoRetirado`) y puede ser reproducido para reconstruir el estado actual de una entidad.
 
+![Event Sourcing Pattern](images/event-sourcing-2.png)
+
 ---
 
 ## ⚙️ ¿Cómo funciona Event Sourcing?
@@ -60,5 +62,7 @@ Event Sourcing es una poderosa estrategia para microservicios donde el **registr
 Sin embargo, implica una curva de aprendizaje y una arquitectura más compleja que debe ser justificada por los requerimientos del sistema.
 
 ---
+
+[Anterior](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/04_Event_Driven_Patterns/02_cqrs_pattern.md)   [Siguiente](https://github.com/wilfredoha/microservices-event_driven-architecture/blob/main/05_Testing_Microservices/01_testing_pyramid.md)
 
 [Menú Principal](https://github.com/wilfredoha/microservices-event_driven-architecture)
